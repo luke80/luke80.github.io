@@ -1,0 +1,48 @@
+/* line 1, ../scss/styles.scss */
+body {
+  background-color: #ffffff;
+  margin: 0px;
+  overflow: hidden;
+  font-family: Monospace;
+  font-size: 13px;
+  text-align: center;
+  text-align: center;
+  cursor: pointer;
+}
+
+/* line 12, ../scss/styles.scss */
+a {
+  color: #0078ff;
+}
+
+/* line 16, ../scss/styles.scss */
+#info {
+  color: #000;
+  position: absolute;
+  top: 10px;
+  width: 100%;
+}
+
+/* line 22, ../scss/styles.scss */
+.animatedWebGL {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+/* line 27, ../scss/styles.scss */
+.animatedWebGL.boxes {
+  z-index: -1;
+}
+/* line 30, ../scss/styles.scss */
+.animatedWebGL.d-boxes {
+  z-index: -1;
+}
+/* line 33, ../scss/styles.scss */
+.animatedWebGL.birds {
+  z-index: -2;
+}
+/* line 36, ../scss/styles.scss */
+.animatedWebGL.ocean {
+  z-index: -10;
+}
